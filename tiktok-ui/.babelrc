@@ -1,0 +1,15 @@
+{
+    "presets": ["babel-preset-react-app"],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "~": "./src"
+                }
+            }
+        ]
+    ]
+}
+
+//https://github.com/tleunen/babel-plugin-module-resolver
